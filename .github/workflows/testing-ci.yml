@@ -1,5 +1,6 @@
 name: Test Multiple Python Versions
-on: [push]
+on: 
+  push:
 jobs:
   build:
     runs-on: ubuntu-latest
